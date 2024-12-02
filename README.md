@@ -1,10 +1,10 @@
-# ![Juice Shop Logo](https://raw.githubusercontent.com/juice-shop/juice-shop/master/frontend/src/assets/public/images/JuiceShop_Logo_100px.png) Website Security Research Project: OWASP Juice Shop Updated
+# Website Security Research Project: OWASP Juice Shop Updated
 
 ## Table of contents
 
 - [Setup](#setup)
 - [Demo](#demo)
-- [Documentation](#documentation)
+- [Mitigated Exploits and How-tos](#mitigated-exploits-and-how-tos)
 - [Licensing](#licensing)
 
 ## Setup
@@ -25,7 +25,7 @@ to the [unhardened instance]().
 
 
 ## Mitigated Exploits and How-tos
-How-to | OWASP Vulnerability | Author
+How-to or Mitigation | OWASP Vulnerability | Author
 --- | --- | ---
 [Change Legal Doc](how-to/vulnerable-outdated-components.md) | Vulnerable and Outdated Components | Amy
 [Get Express Version](how-to/security-misconfiguration-error-handling.md) | Security Misconfiguration | Amy
@@ -33,7 +33,7 @@ How-to | OWASP Vulnerability | Author
 [Admin Control Panel](how-to/admin-route.md) | Broken Access Control | Braeden
 [SQL Injection Login](how-to/sql-injection-login.md) | Injection | Elizabeth
 [SQL Injection Search API](how-to/sql-injection-search-api.md) | Injection | Elizabeth
-[Password Validation](frontend/src/app/register/custom-password-validator.ts) | Insecure Design | Marcus
+[Password Validator](frontend/src/app/register/custom-password-validator.ts) | Insecure Design | Marcus
 
 
 
@@ -42,7 +42,5 @@ How-to | OWASP Vulnerability | Author
 [![license](https://img.shields.io/github/license/bkimminich/juice-shop.svg)](LICENSE)
 
 This program is free software: you can redistribute it and/or modify it under the terms of the [MIT license](LICENSE).
-OWASP Juice Shop and any contributions are Copyright © by Bjoern Kimminich & the OWASP Juice Shop contributors
-2014-2024.
 
-![Juice Shop Logo](https://raw.githubusercontent.com/bkimminich/juice-shop/master/frontend/src/assets/public/images/JuiceShop_Logo_400px.png)
+Juice Shop Hardened is a licensed fork of [OWASP Juice Shop](https://github.com/juice-shop/juice-shop).
