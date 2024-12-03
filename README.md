@@ -21,7 +21,7 @@
 ## Demo
 
 Follow our exploit instructions to compare the [hardened instance of Juice Shop](https://fall-2024-security-project.fly.dev)
-to the [unhardened instance]().
+to the [unhardened instance](http://34.105.75.18:3000).
 
 
 ## Mitigated Exploits and How-tos
