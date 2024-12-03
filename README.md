@@ -33,7 +33,7 @@ How-to or Mitigation | OWASP Vulnerability | Author
 [Admin Control Panel](how-to/admin-route.md) | Broken Access Control | Braeden
 [SQL Injection Login](how-to/sql-injection-login.md) | Injection | Elizabeth
 [SQL Injection Search API](how-to/sql-injection-search-api.md) | Injection | Elizabeth
-[Password Validator](frontend/src/app/register/custom-password-validator.ts) | Insecure Design | Marcus
+[Password Validator](frontend/src/app/register/custom-password-validator.ts) | Identification and Authentication Failures | Marcus
 
 
 
