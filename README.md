@@ -9,6 +9,8 @@
 
 ## Setup
 
+Note: Installation is only required for local use and testing. To test exploits on demo version of the app, skip to [Demo](#demo).
+
 1. Verify you have an authentication key in your github ssh keys [link](https://github.com/settings/keys).
     If not, follow github directions on setting up ssh key [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 2. Install [node.js](#nodejs-version-compatibility)
@@ -23,9 +25,7 @@
 Follow our exploit instructions to compare the [hardened instance of Juice Shop](https://fall-2024-security-project.fly.dev)
 to the [unhardened instance](http://34.105.75.18:3000).
 
-
-## Mitigated Exploits and How-tos
-How-to or Mitigation | OWASP Vulnerability | Author
+Exploit | OWASP Vulnerability | Author
 --- | --- | ---
 [Change Legal Doc](how-to/vulnerable-outdated-components.md) | Vulnerable and Outdated Components | Amy
 [Get Express Version](how-to/security-misconfiguration-error-handling.md) | Security Misconfiguration | Amy
@@ -33,7 +33,7 @@ How-to or Mitigation | OWASP Vulnerability | Author
 [Admin Control Panel](how-to/admin-route.md) | Broken Access Control | Braeden
 [SQL Injection Login](how-to/sql-injection-login.md) | Injection | Elizabeth
 [SQL Injection Search API](how-to/sql-injection-search-api.md) | Injection | Elizabeth
-[Password Validator](frontend/src/app/register/custom-password-validator.ts) | Identification and Authentication Failures | Marcus
+[Password Validator](frontend/src/app/register/custom-password-validator.ts) (mitigation)| Identification and Authentication Failures | Marcus
 
 
 
