@@ -21,18 +21,19 @@ Note: Installation is only required for local use and testing. To test exploits 
 
 ## Demo
 
-Follow our exploit instructions to compare the [hardened instance of Juice Shop](https://fall-2024-security-project.fly.dev)
+Follow our exploit instructions below to compare the [hardened instance of Juice Shop](https://fall-2024-security-project.fly.dev)
 to the [unhardened instance](http://34.105.75.18:3000).
 
 Python exploit scripts are required for [Forge Admin Account](how-to/admin-registration.md).
 
 Get Python scripts:
 ```
-git clone https://github.com/Fall-2024-Security-Project/juice-shop-updated/python
+git clone https://github.com/Fall-2024-Security-Project/juice-shop-updated.git
 ```
 
 Install Python requirements:
 ```
+cd python
 pip install -r requirements.txt
 ```
 

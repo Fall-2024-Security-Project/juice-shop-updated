@@ -2,10 +2,11 @@
 Targets OWASP vulnerabilities [#10: Server Side Request Forgery](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/) and [#3: Injection](https://owasp.org/Top10/A03_2021-Injection/)
 
 ## How to execute
+- From within the Juice Shop directory, `cd` to the `python` subdirectory.
 
 - Install requirements with `pip install -r requirements.txt`
 
-- Execute script `python/exploits/forge_admin_account.py [site url]`
+- Execute script `exploits/forge_admin_account.py [site url]`
 
     - Copy the site's base url, e.g. `https://not-juice-shop.com`, including `https://` but minus additional slashes and subdirectories.
 
