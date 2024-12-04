@@ -24,6 +24,18 @@ Note: Installation is only required for local use and testing. To test exploits 
 Follow our exploit instructions to compare the [hardened instance of Juice Shop](https://fall-2024-security-project.fly.dev)
 to the [unhardened instance](http://34.105.75.18:3000).
 
+Python exploit scripts are required for [Forge Admin Account](how-to/admin-registration.md).
+
+Get Python scripts:
+```
+git clone https://github.com/Fall-2024-Security-Project/juice-shop-updated/python
+```
+
+Install Python requirements:
+```
+pip install -r requirements.txt
+```
+
 Exploit | OWASP Vulnerability | Author
 --- | --- | ---
 [Change Legal Doc](how-to/vulnerable-outdated-components.md) | Vulnerable and Outdated Components | Amy
