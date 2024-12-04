@@ -4,7 +4,6 @@
 
 - [Setup](#setup)
 - [Demo](#demo)
-- [Mitigated Exploits and How-tos](#mitigated-exploits-and-how-tos)
 - [Licensing](#licensing)
 
 ## Setup
